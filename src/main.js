@@ -1,9 +1,8 @@
-const objectA = {
-	a: 20,
-	b: true,
+const myFn = function (a, b) {
+	let c;
+	a += 1;
+	c = a + b;
+	console.log(c);
+	return c;
 };
-
-const copyOfA = objectA;
-copyOfA.a = 35;
-console.log(copyOfA);
-console.log(objectA);
+myFn(5, 3);
