@@ -1,8 +1,9 @@
-const myFn = function (a, b) {
-	let c;
-	a += 1;
-	c = a + b;
-	console.log(c);
-	return c;
-};
-myFn(5, 3);
+import { 
+	one as oneRename, 
+	two, 
+	myFn } from "./mainTwo.js";
+
+const res = myFn(10, 6513251);
+console.log(res);
+console.log(oneRename);
+console.log(two);
