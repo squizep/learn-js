@@ -5,3 +5,7 @@ const getData = (url) =>
 			.then(json => resolve(json))
 			.catch(error => reject(error))
 )
+
+const asyncFn = () => {
+	fjhrigirfneiugneifnuigntrugn
+}
